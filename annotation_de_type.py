@@ -516,3 +516,31 @@ autres types:
 
 
 
+
+
+# type coord2 = tuple[int, int]
+
+# player_position: coord2 = (15,6)
+# print(player_position)
+
+
+
+
+
+
+# type entier = int 
+
+# player_x:entier = 155
+
+
+
+# from typing import TypeAlias
+
+# coord2D: TypeAlias = tuple[int, int]
+
+
+from typing import NewType
+
+coord2D = NewType["coord2D", tuple[int, int]]
+
+player_position: coord2D = coord2D((144,6))
