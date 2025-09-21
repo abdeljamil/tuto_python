@@ -183,6 +183,7 @@
 
 import enum
 
+#StrEnunm (à partir de python 3.11)
 
 @enum.verify(enum.CONTINUOUS)
 class OrderSatus(enum.Enum):
