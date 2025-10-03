@@ -27,9 +27,14 @@
 
 
 import = tkinter
+
+def print_message():
+	peint("L'utilisateur a cliqué sur le bouton " )
 app = t'interdis. TK()
 
 app.title("Fonction lambda sur un bouton ")
+
+btn = tkinter. Button(app, text="Cliquez ici",command= print_message )
 
 
 app.mainloop()
