@@ -2,11 +2,11 @@
 
 #lambda [parametres] : [expression ]
 
-power = lambda n:n **n
+#power = lambda n:n **n
 
-print(power(5))
+#print(power(5))
 
-#Power = lambda n:n ** n
+#Power = lambda n:n ** n#Power = lambda n:n ** n##Power = lambda n:n ** n
 
 #Print (power(4))
 
@@ -14,4 +14,13 @@ print(power(5))
 
 #Print (power(2))
 
+#filter(<callback>, <Iterable>)
+
+
+#Def if_positive(n):
+	return n >= 0
+   
+result = filter (lambda n:n > 0, [-3,1,2,-22,136,-5])
+
+print (list(result))
 
