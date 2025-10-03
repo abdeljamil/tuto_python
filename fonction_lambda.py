@@ -20,7 +20,17 @@
 #Def if_positive(n):
 	return n >= 0
    
-result = filter (lambda n:n > 0, [-3,1,2,-22,136,-5])
+#result = filter (lambda n:n > 0, [-3,1,2,-22,136,-5])
 
-print (list(result))
+#print (list(result))
+
+
+
+import = tkinter
+app = t'interdis. TK()
+
+app.title("Fonction lambda sur un bouton ")
+
+
+app.mainloop()
 
