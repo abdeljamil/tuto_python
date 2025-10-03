@@ -36,6 +36,8 @@ app.title("Fonction lambda sur un bouton ")
 
 btn = tkinter. Button(app, text="Cliquez ici",command= print_message )
 
-
+btn. pack()
 app.mainloop()
+
+
 
