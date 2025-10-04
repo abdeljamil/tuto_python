@@ -133,7 +133,7 @@
 
 
 class Lapin: 
-    def __init__(self,name,weigth)
+    def __init__(self,name,weigth):
         self.name = name
         self.weigth = weigth
 
